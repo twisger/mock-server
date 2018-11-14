@@ -1,0 +1,26 @@
+{
+  "name": "mock-server",
+  "version": "0.0.1",
+  "description": "mock server",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "chalk": "^1.1.3",
+    "chokidar": "^1.7.0",
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "express-http-proxy": "^1.1.0",
+    "yargs": "^8.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js 5000 ",
+    "test": "test",
+    "debug": "node --inspect-brk index.js 5000"
+  },
+  "keywords": [
+    "mock"
+  ],
+  "author": "roadhog",
+  "license": "MIT"
+}
